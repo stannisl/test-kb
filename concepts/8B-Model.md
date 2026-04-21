@@ -3,10 +3,10 @@ chunks: 0
 created: 2026-04-22
 sources: 0
 tags: [concept]
-title: "PrismML"
+title: "8B-Model"
 ---
 
-# PrismML
+# 8B-Model
 
 ## Summary
 
@@ -17,9 +17,5 @@ title: "PrismML"
 
 ## Связи
 
-- [[1-bit Bonsai model]] ████ `0.80` — is developed by
-
-## Упоминается в
-
-- [[1-bit Bonsai model]]
+- [[1-bit Bonsai model]] ███░ `0.70` — comparative performance
 

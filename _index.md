@@ -1,12 +1,10 @@
 # PKB Index
 
-Updated: 2026-04-21 16:52 · 6 concepts
+Updated: 2026-04-22 02:59 · 4 concepts
 
 ## Concepts
 
-- [[license]] (0 chunks)
-- [[speed of generation]] (0 chunks)
-- [[1-bit architecture]] (0 chunks)
-- [[8B models]] (0 chunks)
+- [[Quantization]] (0 chunks)
+- [[8B-Model]] (0 chunks)
 - [[PrismML]] (0 chunks)
-- [[1-bit Bonsai models]] (0 chunks)
+- [[1-bit Bonsai model]] (0 chunks)
