@@ -3,10 +3,10 @@ chunks: 0
 created: 2026-04-22
 sources: 0
 tags: [concept]
-title: "PrismML"
+title: "Examples"
 ---
 
-# PrismML
+# Examples
 
 ## Summary
 
@@ -15,11 +15,8 @@ title: "PrismML"
 ## Excerpts
 
 
-## Связи
-
-- [[1-bit Bonsai model]] ████ `0.80` — is developed by
-
 ## Упоминается в
 
-- [[1-bit Bonsai model]]
+- [[Go language]]
+- [[Introduction]]
 

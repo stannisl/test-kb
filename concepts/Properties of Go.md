@@ -3,10 +3,10 @@ chunks: 0
 created: 2026-04-22
 sources: 0
 tags: [concept]
-title: "8B-Model"
+title: "Properties of Go"
 ---
 
-# 8B-Model
+# Properties of Go
 
 ## Summary
 
@@ -15,7 +15,10 @@ title: "8B-Model"
 ## Excerpts
 
 
-## Связи
+## Упоминается в
 
-- [[1-bit Bonsai model]] ███░ `0.70` — comparative performance
+- [[Go language]]
+- [[Introduction]]
+- [[Introduction]]
+- [[Introduction]]
 
