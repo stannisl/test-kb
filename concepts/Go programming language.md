@@ -3,10 +3,10 @@ chunks: 0
 created: 2026-05-10
 sources: 0
 tags: [concept]
-title: "Examples"
+title: "Go programming language"
 ---
 
-# Examples
+# Go programming language
 
 ## Summary
 
@@ -15,8 +15,8 @@ title: "Examples"
 ## Excerpts
 
 
-## Связи
+## Упоминается в
 
-- [[Formatting]] ████ `0.90` — augments
-- [[Formatting]] ██░░ `0.50` — is part of
+- [[Formatting]]
+- [[Commentary]]
 

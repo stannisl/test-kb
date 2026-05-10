@@ -3,10 +3,10 @@ chunks: 0
 created: 2026-05-10
 sources: 0
 tags: [concept]
-title: "Examples"
+title: "Indentation"
 ---
 
-# Examples
+# Indentation
 
 ## Summary
 
@@ -17,6 +17,6 @@ title: "Examples"
 
 ## Связи
 
-- [[Formatting]] ████ `0.90` — augments
 - [[Formatting]] ██░░ `0.50` — is part of
+- [[Commentary]] ██░░ `0.50` — is part of
 

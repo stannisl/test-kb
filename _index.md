@@ -1,10 +1,11 @@
 # PKB Index
 
-Updated: 2026-04-22 03:12 · 4 concepts
+Updated: 2026-05-10 20:11 · 5 concepts
 
 ## Concepts
 
+- [[Commentary]] (0 chunks)
+- [[Indentation]] (0 chunks)
 - [[Examples]] (0 chunks)
-- [[Properties of Go]] (0 chunks)
-- [[Introduction]] (0 chunks)
-- [[Go language]] (0 chunks)
+- [[Formatting]] (0 chunks)
+- [[Go programming language]] (0 chunks)

@@ -1,12 +1,12 @@
 ---
 chunks: 0
-created: 2026-04-22
+created: 2026-05-10
 sources: 0
 tags: [concept]
-title: "Properties of Go"
+title: "Formatting"
 ---
 
-# Properties of Go
+# Formatting
 
 ## Summary
 
@@ -15,10 +15,13 @@ title: "Properties of Go"
 ## Excerpts
 
 
+## Связи
+
+- [[Go programming language]] ████ `0.90` — augments
+
 ## Упоминается в
 
-- [[Go language]]
-- [[Introduction]]
-- [[Introduction]]
-- [[Introduction]]
+- [[Examples]]
+- [[Indentation]]
+- [[Examples]]
 
