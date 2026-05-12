@@ -1,9 +1,12 @@
 ---
 chunks: 25
-concepts: 0
-created: 2026-05-10
+concepts: 1
+confidence: 0.90
+created: 2026-05-12
+knowledge_type: "how-to"
 language: "ru"
 source_url: "https://example.com/"
+tags: ["go", "architecture", "frontend", "database", "performance", "documentation", "tutorial", "refactoring", "learning", "product"]
 title: "title"
 type: "plaintext"
 ---
@@ -12,17 +15,42 @@ type: "plaintext"
 
 - **URL**: https://example.com/
 - **Type**: plaintext
-- **Added**: 2026-05-10
+- **Added**: 2026-05-12
 - **Words**: 16221
 - **Chunks**: 25
 
 ## Summary
 
-> Introduction¶ Go is an open-source programming language that focuses on simplicity, reliability, and efficiency, specifically designed to make it easy to build software at scale. Although it borrows ideas from existing languages, it has unusual properties that make effective Go programs different in character from programs written in its relatives. A straigh...
+This document provides guidance on writing clear, idiomatic Go code, focusing on formatting rules (like gofmt), naming conventions, and best practices for Go programming.
 
-> needs fewer parentheses than C and Java: control structures (if, for, switch) do not have parentheses in their syntax. Also, the operator precedence hierarchy is shorter and clearer, so x<<8 + y<<16 means what the spacing implies, unlike in the other languages. Commentary¶ Go provides C-style /* */ block comments and C++-style // line comments. Line comments...
+The text discusses Go's emphasis on simplicity, reliability, and efficiency, contrasting it with C++/Java. It highlights key aspects such as: 1) Formatting with gofmt (automated indentation), 2) Naming conventions (case sensitivity for package visibility), 3) Operator precedence in Go, 4) Struct field alignment, and 5) Doc comments. The document also emphasizes the importance of adhering to Go's idioms and conventions for maintainable code.
 
-> name plus an -er suffix or similar modification to construct an agent noun: Reader, Writer, Formatter, CloseNotifier etc. There are a number of such names and it's productive to honor them and the function names they capture. Read, Write, Close, Flush, String and so on have canonical signatures and meanings. To avoid confusion, don't give your method one of...
+## Key Points
+
+- Go prioritizes simplicity and reliability over complexity
+- gofmt automates formatting with tab-based indentation
+- Naming conventions use lowercase, single-word names with case sensitivity for visibility
+- Operator precedence is clearer than in C/C++
+- Doc comments are essential for package documentation
+
+## Tags
+
+- #go
+- #architecture
+- #frontend
+- #database
+- #performance
+- #documentation
+- #tutorial
+- #refactoring
+- #learning
+- #product
+
+Knowledge type: `how-to`
+
+## Concepts
+
+- [[Go]]
 
 ## Excerpts
 
@@ -1618,7 +1646,7 @@ func QR(w http.ResponseWriter, req *http.Request) {
     templ.Execute(w, req.FormValue("s"))
 }
 
-const templateStr = 
+const templateStr =
 	<html>
 	<head>
 	<title>QR Link Generator</title>
@@ -1637,7 +1665,7 @@ const templateStr =
 	</form>
 	</body>
 	</html>
-		
+
 The pieces up to main should be easy to follow. The one flag sets a default HTTP port for our server. The template variable templ is where the fun happens. It builds an HTML template that will be executed by the server to display the page; more about that in a moment.
 
 The main function parses the flags and, using the mechanism we talked about above, binds the function QR to the root path for the server. Then http.ListenAndServe is called to start the server; it blocks while the server runs.
